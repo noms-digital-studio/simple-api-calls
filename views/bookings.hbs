@@ -1,0 +1,10 @@
+<h1>Bookings</h1>
+<p>Found {{bookings.length}} bookings</p>
+
+{{#each bookings}}
+    <div class="booking">
+        <strong>{{this.offenderNo}}</strong> {{this.lastName}}, {{this.firstName}} - {{this.dateOfBirth}}
+    </div>
+{{/each}}
+
+
